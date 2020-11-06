@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel App-Hotel del Luna</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="css/book.css">
+    <script src="script/book.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <!--Navbar-->
+    <div class="row">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="https://cdn131.picsart.com/328397318030211.png?type=webp&to=min&r=640" width="85" />
+              Hotel del Luna
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="book.html">Book Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="list.html">View Bookings</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col">
+        <div class="jumbotron">
+          <h1 class="display-4">You are Here!</h1>
+            <p class="lead">Tell us your plan and fill-up your contact info</p>
+        </div>
+      </div> <!-- jumbotron col-->
+    </div> <!-- jumbotron row-->  
+    <!-- Booking Form -->
+    <div class="row">
+      <div class="col">
+        <form class="form-border">
+          <div class="form-group">
+            <label for="guestName">Name</label>
+            <input type="test" class="form-control" id="guestName" placeholder="First and Last Name" >
+          </div>
+          <div class="form-group">
+            <label for="guestRoom">Room Type</label>
+            <select class="form-control" id="guestRoom">
+              <option>Standard Single</option>
+              <option>Deluxe Queen</option>
+              <option>Family Interconnecting Room</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="guestPhone">Phone Number</label>
+            <input type="tel" class="form-control" id="guestPhone" placeholder="Enter your phonr number">
+          </div>
+          <div class="form-group" rows="1">
+            <label for="guestCheckIn">Check-In</label>
+            <input type="date" id="guestCheckIn">
+            <label for="guestCheckOut">Check-Out</label>
+            <input type="date" id="guestCheckOut">
+            <label for="guestPax">Pax</label>
+            <select id="guestPax">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="guestRemarks">Remarks</label>
+            <textarea class="form-control" id="guestRemarks" rows="3"></textarea>
+          </div>
+        </form>
+        <button type="button" class="btn btn-primary" id="bookNow">Book Now
+        </button>
+      </div> <!-- Booking Form Col -->
+    </div>
+  </div>    
+  
+  <br />
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+  
+      <!-- Booking Form  Row  -->     
+  </br>
+
+        <!-- -----------x----------end Site Content -------------x------------>
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+    
+  <footer class="footer">
+    <div class="left flex-row">
+      <h8 class="text-gray">
+        Copyright ©2021 All rights reserved | Hafizjabar95
+      </h8>
+    </div>
+  </footer>
+
+        <!-- -------------x------------- Footer --------------------x------------------- -->
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
